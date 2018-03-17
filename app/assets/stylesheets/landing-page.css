@@ -45,6 +45,16 @@ h6 {
     padding-bottom: 20%;
 }
 
+.map-container {
+  background-color: #FFCE42;
+  border-radius: 20px;
+  width: 1050px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
@@ -52,7 +62,7 @@ h6 {
 }
 
 .yellow {
-    color: #FFFF66;
+    color: #FFCE42;
 }
 
 .intro-divider {
@@ -174,7 +184,7 @@ p.copyright {
 }
 
 iframe {
-  margin-top: 40px;
+  border-radius: 20px;
 }
 
 p.intro-text {
