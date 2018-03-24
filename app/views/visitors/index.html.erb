@@ -1,45 +1,52 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top topnav bg-yellow" role="navigation">
-  <div class="container topnav">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="#">
-        <%= image_tag("logo.png", class: "logo") %>
-      </a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav sections-menu">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#who-are-we">Who are we?</a>
-        </li>
-        <li>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1OGxiKoo7EAZ8YtRZUqPHn-9CYCi7oDkHD5IWvIUfWy3-cg/viewform?usp=pp_url&entry.2005620554&entry.1390492281&entry.1045781291&entry.1065046570&entry.1166974658&entry.839337160">Vull ser amfitrió</a>
-        </li>
-        <li>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSclEmxv6LGWsLdr1h53cdlSL8MVr0SnthwXh7309mW1DEjJ7g/viewform?entry.549750948&entry.2005620554&entry.1390492281&entry.1045781291&entry.1065046570&entry.1995063506&entry.1166974658&entry.1980385700">I am visiting Catalonia</a>
-        </li>
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
+<nav class="navbar navbar-default bg-yellow" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
   </div>
-  <!-- /.container -->
+  <a class="navbar-brand" href="#">
+    <%= image_tag("logo.png", class: "logo") %>
+  </a>
+  <div class="navbar-collapse collapse menu-container">
+    <ul class="nav navbar-nav navbar-center sections-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#who-are-we">Who are we?</a></li>
+      <li>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1OGxiKoo7EAZ8YtRZUqPHn-9CYCi7oDkHD5IWvIUfWy3-cg/viewform?usp=pp_url&entry.2005620554&entry.1390492281&entry.1045781291&entry.1065046570&entry.1166974658&entry.839337160">Vull ser amfitrió</a>
+      </li>
+      <li>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSclEmxv6LGWsLdr1h53cdlSL8MVr0SnthwXh7309mW1DEjJ7g/viewform?entry.549750948&entry.2005620554&entry.1390492281&entry.1045781291&entry.1065046570&entry.1995063506&entry.1166974658&entry.1980385700">I am visiting Catalonia</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <div class="contact-container twitter-contact-container">
+          <a href="#">
+            <%= image_tag("twitter_icon.png", class: "contact-image") %>
+          </a>
+          <span class="contact-text"> @eatwithcatalans </span>
+        </div>
+      </li>
+      <li>
+        <div class="contact-container">
+          <a href="#">
+            <%= image_tag("email_icon.png", class: "contact-image") %>
+          </a>
+          <span class="contact-text"> info@eatwithcatalans.org </span>
+        </div>
+      </li>
+    </ul>
+  </div>
 </nav>
+
 
 <!-- Header -->
 <a name="home"></a>
 <div class="intro-header">
   <div class="container">
-
     <div class="row">
       <div class="col-lg-12">
         <div class="jumbotron">
@@ -71,7 +78,7 @@
       <div class="col-lg-12 col-sm-12">
         <hr class="section-heading-spacer">
         <div class="clearfix"></div>
-        <h2 class="section-heading">Who are we</h2>
+        <h2 class="section-heading">Who are we?</h2>
         <p class="lead">Eat with Catalans is a nonprofit initiative purely driven by our hospitality and our will to explain our culture and our Republic to the world.
         </br>
         The promoters and supporters of Eat with Catalans have three things in common:
@@ -84,9 +91,6 @@
             We focus on providing a local food experience while sharing views and thoughts on the creation of a new State in Europe, the Catalan Republic.
           </p>
         </p>
-      </div>
-      <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-        <img class="img-responsive" src="http://ironsummitmedia.github.io/startbootstrap-landing-page/img/ipad.png" alt="">
       </div>
     </div>
 
